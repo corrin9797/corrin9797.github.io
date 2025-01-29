@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viziers</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 20px;
+            color: white;
+            background-image: url('blackwater.jpg');
+            background-repeat: repeat;
+            background-size: cover;
+            min-height: 100vh;
+            /* Adding a dark overlay to ensure text remains readable */
+            background-color: rgba(0, 0, 0, 0.7);
+            background-blend-mode: overlay;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            text-align: left;
+            line-height: 1.6;
+            text-indent: 2em;
+            max-width: 800px;
+        }
+        .vizier-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+            max-width: 1000px;
+        }
+        .vizier-list a {
+            text-decoration: none;
+            font-size: 1.5em;
+            padding: 15px 30px;
+            border: 2px solid;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+            text-align: center;
+            min-width: 150px;
+        }
+        .vizier-list a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+        }
+        .mikikoko { 
+            color: #00ff00; 
+            border-color: #00ff00;
+        }
+        .mikikoko:hover {
+            background-color: #00ff0033;
+        }
+        .caliphran { 
+            color: #ee82ee;
+            border-color: #ee82ee;
+        }
+        .caliphran:hover {
+            background-color: #ee82ee33;
+        }
+        .aris { 
+            color: #ff0000;
+            border-color: #ff0000;
+        }
+        .aris:hover {
+            background-color: #ff000033;
+        }
+        .midas { 
+            color: #ffd700;
+            border-color: #ffd700;
+        }
+        .midas:hover {
+            background-color: #ffd70033;
+        }
+        .laplace { 
+            color: #0000ff;
+            border-color: #0000ff;
+        }
+        .laplace:hover {
+            background-color: #0000ff33;
+        }
+	.back-button {
+    		position: fixed;
+    		top: 20px;
+    		left: 20px;
+    		text-decoration: none;
+    		color: white;
+    		background-color: black;
+    		padding: 10px 20px;
+    		border: 2px solid white;
+    		border-radius: 5px;
+    		transition: all 0.3s ease;
+	}
+	.back-button:hover {
+    		background-color: #333;
+    		transform: translateY(-2px);
+    		box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+	}
+    </style>
+</head>
+<body>
+<a href="../index.html" class="back-button">← Back</a>
+    <h1>Viziers</h1>
+    <p>Magic in this world is built upon philosophy. Whatever you believe about how the world works informs what kinds of power you can channel, and the more you refine your worldview, the more powerful that magic becomes. The most powerful channelers of this magic are known as 'Viziers', and they channel powers that shape all facets of the world. Immortal and ethereal, these viziers are worshipped by many of the people in this world, and feared by the rest. Though it is possible to strip them of their power, it can only be done one way: by proving their philosophy wrong in their own domain, a daunting task that is difficult to even attempt, let alone succeed at.</p>
+    <p>Odds are, your character will not have heard of all of these, but they probably have a negative disposition towards most of them. A great many viziers are selfish or monstrous, and even the ones that half selfless ambitions are often willing to kill by the millions in order to see their ideal world created. Still, if you wield magic, odds are you'll have tapped into the domains of at least one of these people. To think is to believe - and to believe is to channel, willingly or not.</p>
+    <div class="vizier-list">
+        <a href="mikikoko.html" class="mikikoko">Mikikoko</a>
+        <a href="caliphran.html" class="caliphran">Caliphran</a>
+        <a href="aris.html" class="aris">Aris</a>
+        <a href="midas.html" class="midas">Midas</a>
+        <a href="laplace.html" class="laplace">Laplace</a>
+    </div>
+</body>
+</html>
