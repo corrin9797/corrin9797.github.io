@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-image: url('mapBG.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #000; /* Changed to black for better contrast */
+        }
+        .content {
+            max-width: 1200px;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .text {
+            flex: 1;
+            text-align: left;
+            line-height: 1.6;
+            color: #333;
+        }
+        .image {
+            flex-shrink: 0;
+        }
+        .image img {
+            max-width: 300px;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #333;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <a href="../mortals.html" class="back-button">← Back</a>
+    <h1>Sarne</h1>
+    <div class="content">
+        <div class="image">
+            <img src="herMajesty.jpg" alt="Her Majesty">
+        </div>
+        <div class="text">
+            <h2>Sarne</h2>
+            <p>Sarne is an Empire built upon greed. Its Queen, the dragon known only as "Her Majesty", rules atop a throne of gold and gems taken from the many colonies the empire has in the mortal plane. To facilitate this wealth the empire trades in all manner of goods, attempting to corner markets on everything from rare artefacts to simple luxuries. Of course, trade is only acceptable <em>within</em> the empire. Her Majesty does everything in her power to keep the vast wealth of her empire within its borders, imposing tariffs and blockades to control the merchant class. And when that doesn't work? Well, a few thousand cannons can simply expand the market. Many a nation has fallen because they produced a trade good the Queen wanted to monopolize.</p>
+            <p>Naturally, the Empire tends to dress up its imperial ambitions. They consider themselves a <em>civilizing</em> force, working to bring the light of the modern world to the savages they conquer. They often cite "purging vizier corruption" as a cause for war, never mind that their queen was created by the old vizier of Greed. The cultural traditions of those they subjugate are at best ignored and at worst destroyed in service of what is "proper" and "dignified." No matter where you're from, the people ruling your home have either been subjugated by Sarne or had to make sacrifices to remain independent.</p>
+            <p>Is it any wonder a god would want this empire dead? Is it any wonder they'd ask you to kill it?</p>
+        </div>
+        <div class="image">
+            <img src="sarne.jpg" alt="Sarne">
+        </div>
+    </div>
+</body>
+</html>
